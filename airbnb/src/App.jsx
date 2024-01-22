@@ -5,12 +5,23 @@ import Cards from "./components/Cards"
 import Data from "./components/Data"
 
 function App() {
+  const cards = Data.map(function(item){
+    return (
+      <Cards 
+      key={item.id}
+      item={item}
+      />
+    )
+  })
 
   return (
       <div>
         <Navbar />
         <Img />
-        <Cards />
+        <section className="cards-list">
+        {cards}
+        </section>
+        
     
       </div>
   )

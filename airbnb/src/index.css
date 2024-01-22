@@ -48,6 +48,7 @@
 .cards .icon {
   display: block;
   width: 180px;
+  height: 230px;
 }
 
 .cards img {
@@ -57,4 +58,10 @@
 .cards h2 {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
