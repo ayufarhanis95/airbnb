@@ -5,17 +5,56 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
 }
 
-.navbar img {
-  width: 100px;
+.navbar .img {
+  width: 150px;
   padding-left: 30px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top:15px;
 }
 
 .navbar {
   height: 70px;
   box-shadow: 0 0 10px 0;
 
+
+}
+
+.picgrid .img {
+  width: 350px;
+  padding-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.picgrid h1 {
+  padding-top: 25px;
+  font-size: 2rem;
+  padding-left: 30px;
+}
+
+.picgrid p {
+  padding-top: 25px;
+  padding-left: 30px;
+  line-height: 1.5rem;
+}
+
+.cards {
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.cards .icon {
+  display: block;
+  width: 180px;
+}
+
+.cards img {
+  width: 14px;
+}
+
+.cards h2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }

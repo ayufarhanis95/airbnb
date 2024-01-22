@@ -1,14 +1,15 @@
 import { useState } from 'react'
 import Navbar from "./components/Navbar"
+import Img from "./components/Img"
+import Cards from "./components/Cards"
 
 function App() {
 
   return (
       <div>
         <Navbar />
-        //img
-        //title & description
-        //cards
+        <Img />
+        <Cards />
     
       </div>
   )
